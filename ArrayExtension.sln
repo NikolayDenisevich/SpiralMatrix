@@ -1,8 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixManipulations", "MatrixManipulations\MatrixManipulations.csproj", "{6E5E9DE1-F051-4018-96BB-68A826530868}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixManipulations", "MatrixManipulations\MatrixManipulations.csproj", "{6E5E9DE1-F051-4018-96BB-68A826530868}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixManipulations.Tests", "MatrixManipulations.Tests\MatrixManipulations.Tests.csproj", "{C4A8EF2D-1D1F-4EA8-8883-CD38D40190CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixManipulations.Tests", "MatrixManipulations.Tests\MatrixManipulations.Tests.csproj", "{C4A8EF2D-1D1F-4EA8-8883-CD38D40190CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{66ED5609-2C85-471E-85E2-EFA50C3095BD}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +26,11 @@ Global
 		{C4A8EF2D-1D1F-4EA8-8883-CD38D40190CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4A8EF2D-1D1F-4EA8-8883-CD38D40190CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4A8EF2D-1D1F-4EA8-8883-CD38D40190CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {721B791D-4FA5-4E00-9708-93E1BDDFA231}
 	EndGlobalSection
 EndGlobal
